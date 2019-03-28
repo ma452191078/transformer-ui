@@ -1,0 +1,268 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*这里是关键*/
+
+#layout {
+    background-color: #fff;
+    /*border: 2px solid #333333;*/
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    text-align: center;
+    margin-top: 0px;
+    background: rgba(24, 118, 39, 0.82);
+    color: #fff;
+    height: 100px;
+    line-height: 100px;
+}
+
+.title h1 {
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 50px;
+    letter-spacing: 8px;
+}
+
+.title-line {
+    height: 10px;
+    background: rgba(24, 118, 39, 0.82);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.background-green {
+    width: 100%;
+    background: rgba(24, 118, 39, 0.82);
+    border-radius: 20px
+}
+
+.left-body {
+    height: 780px;
+    float: left;
+    margin-right: 20px;
+}
+
+.left-body-1 {
+    width: 70px;
+}
+
+.left-body-2 {
+    width: 140px;
+}
+
+.left-body-3 {
+    width: 270px;
+}
+
+.right-body-top {
+    height: 80px;
+    float: left;
+    margin: 2px;
+}
+
+.right-body-top .top-title {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.top-text{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    background: white;
+    float: left;
+    margin: 10px 5px 5px 8px;
+}
+
+ .a {
+    color: #e38d13;
+    border: 1px #e38d13 solid;
+}
+
+ .b {
+    color: #20b437;
+    border: 1px #20b437 solid;
+}
+
+ .c {
+    color: red;
+    border: 1px red solid;
+}
+ .d {
+    color: blue;
+    border: 1px blue solid;
+}
+
+.right-body {
+    height: 500px;
+    float: left;
+    margin-right: 10px;
+}
+
+.right-body-3 {
+    width: 140px;
+}
+
+.right-body-2 {
+    width: 70px;
+}
+
+.right-body-1 {
+    width: 35px;
+}
+
+.rose-card {
+    height: 25px;
+    line-height: 25px;
+    background: rgba(142, 24, 82, 0.99);
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    margin: 0 auto 10px;
+}
+
+.rose-card-t {
+    height: 25px;
+    line-height: 25px;
+    background: transparent;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    margin: 0 auto 10px;
+}
+
+.rose-card-w1 {
+    width: 50px;
+    font-size: 10px;
+    display: inline-block;
+}
+
+.rose-card-w2 {
+    width: 106px;
+}
+
+.rose-card-w3 {
+    width: 80%;
+    height: auto;
+    text-align: center;
+}
+
+.white-card-w1 {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    background: white;
+}
+
+.white-card-w1-yellow {
+    text-align: center;
+    margin: 70px 0 0 -2px;
+    width: 40px;
+    background: white;
+    color: #0f0f0f;
+    border: 1px #0f0f0f solid;
+}
+
+.white-card-w2 {
+    text-align: center;
+    margin: 0 auto;
+    width: 80px;
+    height: 180px;
+    background: white;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+
+.yellow-card {
+    background: yellow;
+    width: 35px;
+    height: 35px;
+    font-size: xx-small;
+    text-align: center;
+    display: inline-grid;
+}
+
+.yellow-card-line-height {
+    line-height: 35px;
+}
+
+.yellow-card-height{
+    background: yellow;
+    width: 35px;
+    height: 145px;
+    text-align: center;
+    font-size: xx-small;
+    padding: 5px;
+    margin: 15px auto 0;
+}
+
+.yellow-card-height div {
+    margin-top: 30px;
+}
+
+.yellow-card-weight{
+    background: yellow;
+    height: 35px;
+    line-height: 35px;
+    width: 60px;
+    text-align: center;
+    font-size: xx-small;
+    margin: 80px auto 0;
+}
+
+.light-card {
+    height: 45px;
+    width: 50px;
+    font-size: 15px;
+    text-align: center;
+    padding: 3px;
+    margin: 0 auto;
+}
+
+.light-red {
+    background: indianred;
+}
+
+.light-green {
+    background: darkseagreen;
+    margin: 10px auto;
+}
+
+.light-yellow {
+    background: papayawhip;
+}
+
+.top-40 {
+    margin-top: 40px;
+}
+
+.margin-bottom-middle{
+    margin-bottom: 10px;
+}
+
+.margin-bottom-large{
+    margin-bottom: 20px;
+}
+
+.fire-room {
+    height: 100px;
+    width: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    padding: 15px;
+    margin: 30px auto 0;
+    color: red;
+    background: white;
+}
