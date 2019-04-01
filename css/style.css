@@ -56,7 +56,7 @@ body {
 }
 
 .left-body-2 {
-    width: 140px;
+    width: 160px;
 }
 
 .left-body-3 {
@@ -125,11 +125,11 @@ body {
 .rose-card {
     height: 25px;
     line-height: 25px;
-    background: rgba(142, 24, 82, 0.99);
+    background: rgb(142, 24, 82);
     color: #fff;
     font-size: 15px;
     text-align: center;
-    margin: 0 auto 10px;
+    margin: 0 auto 10px 15px;
 }
 
 .rose-card-t {
@@ -145,7 +145,7 @@ body {
 .rose-card-w1 {
     width: 50px;
     font-size: 10px;
-    display: inline-block;
+    float: left;
 }
 
 .rose-card-w2 {
@@ -156,6 +156,7 @@ body {
     width: 80%;
     height: auto;
     text-align: center;
+    margin: 0 auto;
 }
 
 .white-card-w1 {
@@ -265,4 +266,32 @@ body {
     margin: 30px auto 0;
     color: red;
     background: white;
+}
+
+
+.jiantou-left-rose{
+    width: 8px;
+    height: 8px;
+    border-bottom: 2px solid rgb(142, 24, 82);
+    border-left: 2px solid rgb(142, 24, 82);
+    transform: rotate(45deg);
+}
+
+.jiantou-right-rose{
+    width: 8px;
+    height: 8px;
+    border-top: 2px solid rgb(142, 24, 82);
+    border-right: 2px solid rgb(142, 24, 82);
+    transform: rotate(45deg);
+}
+
+.line-h-rose {
+    height: 1px;
+    width: 100px;
+    background: rgb(142, 24, 82);
+}
+.line-r-rose {
+    height: 50px;
+    width: 1px;
+    background: rgb(142, 24, 82);
 }
