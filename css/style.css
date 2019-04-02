@@ -76,7 +76,7 @@ body {
     margin-top: 10px;
 }
 
-.top-text{
+.top-text {
     width: 17px;
     height: 17px;
     line-height: 17px;
@@ -86,21 +86,22 @@ body {
     margin: 5px 2px 5px 8px;
 }
 
- .a {
+.a {
     color: #e38d13;
     border: 1px #e38d13 solid;
 }
 
- .b {
+.b {
     color: #20b437;
     border: 1px #20b437 solid;
 }
 
- .c {
+.c {
     color: red;
     border: 1px red solid;
 }
- .d {
+
+.d {
     color: blue;
     border: 1px blue solid;
 }
@@ -122,6 +123,7 @@ body {
 .right-body-1 {
     width: 35px;
 }
+
 .rose-card {
     height: 25px;
     line-height: 25px;
@@ -198,7 +200,7 @@ body {
     line-height: 35px;
 }
 
-.yellow-card-height{
+.yellow-card-height {
     background: yellow;
     width: 35px;
     height: 145px;
@@ -212,7 +214,7 @@ body {
     margin-top: 30px;
 }
 
-.yellow-card-weight{
+.yellow-card-weight {
     background: yellow;
     height: 35px;
     line-height: 35px;
@@ -248,11 +250,11 @@ body {
     margin-top: 40px;
 }
 
-.margin-bottom-middle{
+.margin-bottom-middle {
     margin-bottom: 10px;
 }
 
-.margin-bottom-large{
+.margin-bottom-large {
     margin-bottom: 20px;
 }
 
@@ -272,7 +274,7 @@ body {
     position: absolute;
 }
 
-.jiantou-left-rose{
+.jiantou-left-rose {
     position: absolute;
     width: 8px;
     height: 8px;
@@ -281,7 +283,7 @@ body {
     transform: rotate(45deg);
 }
 
-.jiantou-right-rose{
+.jiantou-right-rose {
     position: absolute;
     width: 8px;
     height: 8px;
@@ -290,7 +292,7 @@ body {
     transform: rotate(45deg);
 }
 
-.jiantou-down-yellow{
+.jiantou-down-yellow {
     position: absolute;
     width: 8px;
     height: 8px;
@@ -298,7 +300,8 @@ body {
     border-right: 2px solid yellow;
     transform: rotate(45deg);
 }
-.jiantou-up-yellow{
+
+.jiantou-up-yellow {
     position: absolute;
     width: 8px;
     height: 8px;
@@ -313,6 +316,7 @@ body {
     width: 100px;
     background: rgb(142, 24, 82);
 }
+
 .line-r-rose {
     position: absolute;
     height: 50px;
@@ -347,9 +351,17 @@ body {
     width: 2px;
     background: yellow;
 }
+
 .line-h-yellow-w2 {
     position: absolute;
     height: 2px;
     width: 100px;
     background: yellow;
+}
+
+.main-line-text {
+    position: absolute;
+    left: 1227px;
+    font-weight: 600;
+    z-index: 999;
 }
