@@ -66,7 +66,8 @@ body {
 .right-body-top {
     height: 80px;
     float: left;
-    margin: 2px;
+    margin: 2px 7px 2px 2px;
+    width: 116px;
 }
 
 .right-body-top .top-title {
@@ -76,13 +77,13 @@ body {
 }
 
 .top-text{
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
+    width: 17px;
+    height: 17px;
+    line-height: 17px;
     text-align: center;
     background: white;
     float: left;
-    margin: 10px 5px 5px 8px;
+    margin: 5px 2px 5px 8px;
 }
 
  .a {
@@ -121,7 +122,6 @@ body {
 .right-body-1 {
     width: 35px;
 }
-
 .rose-card {
     height: 25px;
     line-height: 25px;
@@ -268,8 +268,12 @@ body {
     background: white;
 }
 
+.line-text {
+    position: absolute;
+}
 
 .jiantou-left-rose{
+    position: absolute;
     width: 8px;
     height: 8px;
     border-bottom: 2px solid rgb(142, 24, 82);
@@ -278,6 +282,7 @@ body {
 }
 
 .jiantou-right-rose{
+    position: absolute;
     width: 8px;
     height: 8px;
     border-top: 2px solid rgb(142, 24, 82);
@@ -285,13 +290,66 @@ body {
     transform: rotate(45deg);
 }
 
+.jiantou-down-yellow{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-bottom: 2px solid yellow;
+    border-right: 2px solid yellow;
+    transform: rotate(45deg);
+}
+.jiantou-up-yellow{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-top: 2px solid yellow;
+    border-left: 2px solid yellow;
+    transform: rotate(45deg);
+}
+
 .line-h-rose {
+    position: absolute;
     height: 1px;
     width: 100px;
     background: rgb(142, 24, 82);
 }
 .line-r-rose {
+    position: absolute;
     height: 50px;
     width: 1px;
     background: rgb(142, 24, 82);
+}
+
+.line-r-rose-w2 {
+    position: absolute;
+    height: 300px;
+    width: 2px;
+    background: rgb(142, 24, 82);
+}
+
+.line-r-yellow-w2 {
+    position: absolute;
+    height: 300px;
+    width: 2px;
+    background: yellow;
+}
+
+.line-h-yellow {
+    position: absolute;
+    height: 1px;
+    width: 100px;
+    background: yellow;
+}
+
+.line-r-yellow-w2 {
+    position: absolute;
+    height: 50px;
+    width: 2px;
+    background: yellow;
+}
+.line-h-yellow-w2 {
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background: yellow;
 }
